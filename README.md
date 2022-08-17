@@ -34,10 +34,14 @@
 ## Repository
 #### Connect local repository with remote repository
   ```
-  git remote add origin <git url>
+  git remote add origin <git url>dd
   ```
 #### Connect local branch with remote branch
   ```
   git checkout <branch>
   git branch --set-upstream-to <remote branch>
+  ```
+#### Delete remote branch
+  ```
+  git push origin --delete utility
   ```
